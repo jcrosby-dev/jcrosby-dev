@@ -1,7 +1,9 @@
 # Joshua Crosby
 
-Software engineer focused on building scalable applications and cloud infrastructure.
+**The path**: Started as a web developer → Full-stack engineer → Cloud architect
 
-**Expertise**: Full-stack development, cloud architecture, system design, agile practices
+**Now**: Building scalable applications and designing cloud infrastructure
 
-**Technologies**: JavaScript, Python, AWS, Docker, PostgreSQL, React, Node.js
+**Focused on**: System design, cloud architecture, mentoring junior engineers
+
+JavaScript, Python, AWS, Docker, PostgreSQL
