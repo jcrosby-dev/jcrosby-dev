@@ -1,26 +1,25 @@
-## J Crosby
+I am J Crosby
 
-**Data Science | Risk & Fraud**
+**Data Scientist - Risk & Fraud**
 
-### Core Competencies
+**Core Expertise:**
 
-**Fraud Detection Architecture**
-- Real-time transaction scoring
-- 98% precision, 94% recall
+**Fraud Detection Systems**
+- Real-time transaction scoring (98% precision, 94% recall)
 - Graph-based money flow analysis
-- Behavioral anomaly detection
+- Behavioral anomaly detection models
+- Pattern recognition across transactions
 
 **Advanced Analytics**
 - Bayesian inference for uncertainty quantification
-- Causal analysis (not just correlation)
+- Causal analysis and experimentation
 - Statistical hypothesis testing at scale
-- Segmentation and cohort analysis
+- Customer segmentation analysis
 
-**Implementation:**
+**Technical Foundation:**
 - Python (pandas, scikit-learn, statsmodels)
-- SQL at scale (Presto, Spark SQL)
+- SQL at scale (Presto, Spark)
 - ML deployment and monitoring
-- Visualization for stakeholders
+- Data visualization for stakeholders
 
-### What Matters
-Understanding the business problem comes before choosing algorithms. Domain knowledge > fancy methods.
+Principle: Understanding business problems precedes algorithm selection. Domain knowledge outweighs sophisticated techniques.
