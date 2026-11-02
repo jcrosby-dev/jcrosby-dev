@@ -1,19 +1,26 @@
-# I am J Crosby
+## J Crosby
 
-**Data Scientist**
+**Data Science | Risk & Fraud**
 
-## Focus Areas
-Data Science, Analytics, Fraud Detection, Anomaly Detection, Statistical Modeling
+### Core Competencies
 
-## ML Experience
-- Built fraud detection systems identifying suspicious transactions with 98% precision
-- Developed statistical models for anomaly detection in large-scale datasets
-- Implemented real-time alerts for unusual patterns in financial data
-- Created dashboards tracking model performance metrics and KPIs
+**Fraud Detection Architecture**
+- Real-time transaction scoring
+- 98% precision, 94% recall
+- Graph-based money flow analysis
+- Behavioral anomaly detection
 
-## Connect
-- GitHub: [@jcrosby-dev](https://github.com/jcrosby-dev)  
-- LinkedIn: [Profile](https://linkedin.com/in/jcrosby-dev)
+**Advanced Analytics**
+- Bayesian inference for uncertainty quantification
+- Causal analysis (not just correlation)
+- Statistical hypothesis testing at scale
+- Segmentation and cohort analysis
 
----
-*Building solutions that matter.*
+**Implementation:**
+- Python (pandas, scikit-learn, statsmodels)
+- SQL at scale (Presto, Spark SQL)
+- ML deployment and monitoring
+- Visualization for stakeholders
+
+### What Matters
+Understanding the business problem comes before choosing algorithms. Domain knowledge > fancy methods.
