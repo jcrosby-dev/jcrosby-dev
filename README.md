@@ -1,11 +1,7 @@
-# I am Joshua Crosby
+# Joshua Crosby
 
-## Focus Areas
-Full-Stack Development, Cloud Architecture, System Design
+Software engineer focused on building scalable applications and cloud infrastructure.
 
-## Connect
-- GitHub: [@jcrosby-dev](https://github.com/jcrosby-dev)  
-- LinkedIn: [Profile](https://linkedin.com/in/jcrosby-dev)
+**Expertise**: Full-stack development, cloud architecture, system design, agile practices
 
----
-*Building solutions that matter.*
+**Technologies**: JavaScript, Python, AWS, Docker, PostgreSQL, React, Node.js
