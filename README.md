@@ -1,5 +1,13 @@
-Joshua Crosby
+# Joshua Crosby
 
-Building scalable web applications and cloud infrastructure. Full-stack engineer.
+Full-stack engineer building scalable web applications and cloud infrastructure.
 
-JavaScript | Python | AWS | Docker | PostgreSQL
+**Technical Stack**: JavaScript, TypeScript, React, Node.js, PostgreSQL, MongoDB, AWS, Docker
+
+**Focus Areas**: 
+- Scalable web application architecture
+- Cloud infrastructure design
+- API development and optimization
+- System performance and reliability
+
+**Current Work**: Full-stack development with emphasis on backend systems and cloud-native patterns
