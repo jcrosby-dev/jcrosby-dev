@@ -1,69 +1,90 @@
-# J Crosby
+```console
+$ whoami
+joshua-crosby
 
-**Data Scientist - Risk & Fraud**
 
-## Specialization
+$ cat role.txt
+Information Technology Specialist · Senior AI Engineer
 
-Building systems that identify fraud, assess risk, and prevent financial losses. Combining statistical rigor with practical engineering to deploy fraud detection at scale.
 
-## Core Expertise
+$ cat about.txt
+IT is my foundation: networks, systems, security and recovery. I build the software
+that keeps infrastructure visible, patched and recoverable, and the data and ML
+systems that run on it in fintech and healthcare. 10+ years in IT and engineering.
+```
 
-### 🛡️ Fraud Detection Systems
 
-Real-time transaction scoring identifying fraudulent activity as it happens.
+### 🏗️ The stack I think in
 
-**Architecture:**
-- Multi-stage detection pipeline
-- Real-time scoring on transactions
-- 98% precision (few false positives affecting users)
-- 94% recall (catching actual fraud)
-- Graph-based money flow analysis detecting rings
-- Behavioral anomaly detection for account takeover
 
-**Systems:** Immediate transaction blocking, account warnings, manual review queues
+```text
+┌──────────────────────────────────────────────────────────────┐
+│  ML & AI          fraud scoring · readmission risk · RAG     │
+├──────────────────────────────────────────────────────────────┤
+│  Data             Kafka · Spark · PostgreSQL · data quality  │
+├──────────────────────────────────────────────────────────────┤
+│  Security & DR    patch compliance · backups · restore tests │
+├──────────────────────────────────────────────────────────────┤
+│  Infrastructure   inventory · networking · IPAM · Linux/Win  │  ← where I start
+└──────────────────────────────────────────────────────────────┘
+```
 
-**Feedback Loop:** False positives educate model, caught fraud strengthens patterns
-
-### 📊 Advanced Analytics
-
-Moving beyond descriptive statistics to causal understanding and prediction.
-
-**Methods:**
-- Bayesian inference quantifying uncertainty
-- Causal analysis identifying root causes
-- Hypothesis testing at scale across segments
-- Segmentation and cohort analysis
-- Propensity modeling
-
-**Applications:** Customer targeting, risk stratification, intervention effectiveness
-
-**Tools:** Bayesian methods, experimental design, statistical testing
-
-### 🔧 ML Implementation
-
-Taking analytical insights and deploying them as production systems.
-
-**Pipeline:** Data ingestion → Cleaning → Feature engineering → Model training → Validation → Deployment → Monitoring
-
-**Technical Stack:**
-- Python (pandas, scikit-learn, statsmodels)
-- SQL at massive scale (Presto, Spark SQL)
-- Model deployment and serving
-- Monitoring and alerting
-- Data visualization for stakeholders
-
-## Core Principle
-
-Understanding the business problem must precede algorithm selection. Domain knowledge outweighs sophisticated techniques. The best model is one that domain experts trust and understand.
-
-## Key Success Factor
-
-Fraud is dynamic—fraudsters evolve. Static models degrade quickly. Continuous monitoring, retraining, and adaptation are essential. Regular model updates based on new fraud patterns.
-
-## Impact
-
-Fraud detection directly impacts customer trust and company profitability. Reducing fraud by even 0.5% represents millions in savings. But false positives frustrate customers. The balance is critical.
 
 ---
 
-*Protecting users from fraud.*
+
+### 🖧 IT & infrastructure
+
+
+#### Fleetkeeper · *IT asset inventory and patch compliance*
+One view of every laptop, server and cloud instance, with machines behind their patch baseline flagged by owner and due date.
+> Python · FastAPI · Celery · PostgreSQL · React
+
+
+#### Subnet Atlas · *network discovery and IP address management*
+Builds a live topology map over SNMP and LLDP and tracks every subnet, VLAN and address, flagging conflicts before they cause outages.
+> SNMP · LLDP · NetworkX · Python · PostgreSQL
+
+
+#### Backup Ledger · *backup and disaster-recovery verification*
+Runs scheduled test restores and measures recovery point and recovery time per system, so backups are proven, not assumed.
+> AWS S3 · Terraform · Grafana · Python · Docker
+
+
+### 💳 Fintech & 🏥 healthcare
+
+
+#### Settlement Stream · *real-time payment pipeline*
+Moves payment events into a settlement ledger in real time with exactly-once posting and replay tooling.
+> Kafka · Spark Streaming · PostgreSQL · Kubernetes
+
+
+#### Chargeback Shield · *payments fraud prediction*
+Scores card-not-present orders and routes them to approve, step-up or manual hold.
+> Python · LightGBM · Kafka · Redis · FastAPI
+
+
+#### Readmit Radar · *readmission risk at discharge*
+Turns discharge data into a prioritized worklist for care coordinators, with per-patient explanations.
+> Python · Spark · XGBoost · SHAP · MLflow
+
+
+---
+
+
+### ⚙️ How I work
+
+
+1. **Know what you run.** You can't secure or recover what you don't know about.
+2. **Prove recovery.** A backup only counts once it has been restored.
+3. **Automate the routine.** People handle the exceptions.
+
+
+### 🧰 Toolbox
+
+
+- **Infrastructure:** Linux, Windows, SNMP, LLDP, DNS/DHCP, IPAM
+- **Automation:** Python, FastAPI, Terraform, CI/CD
+- **Data & ML:** Spark, Kafka, PostgreSQL, PyTorch, scikit-learn, MLflow
+- **Cloud:** Docker, Kubernetes, AWS
+
